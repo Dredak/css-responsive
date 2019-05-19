@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "roboto light";
+    src: url("assets/fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "roboto black";
+    src: url("assets/fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "roboto regular";
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+ font-family: "roboto light";
+ margin: 0px;
+ padding: 0px;
+
+}
+
+.clear::before, .clear::after {
+    content: "";
+    display: table;
+}
+.clear::after{
+    clear: both;
+}
+
+header{
+    font-weight: lighter; 
+    letter-spacing: 1px;
+    position: relative;
+}
+ .headerInner {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    padding: 0 5%;
+
+ }
+header img {
+   width: 100%;
+}
+h1{
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 6%;
+}
+.headerInner a{
+    background-color: #1d6fb2;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    
+}
+.buildEstate {
+    text-align: center;
+    padding: 0 4%;
+    
+    
+}
+.buildEstate ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: #81c3f5;
+    padding: 4% 0;
+   
+}
+.buildEstate a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.buildEstate li{
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+}
+.buildEstate li:last-child{
+    padding-bottom: 0;
+
+}
+.buildEstate h2{
+    color: #777;
+    font-weight: bolder;
+}
+.buildEstate span{
+   border: 4px solid #777;
+    border-right: none;
+    padding-left: 3%;
+    color: #fd9727;
+
+}
+.whoWeAre{
+    padding: 0 9%;
+    color: black;
+    font-family: "roboto regular";
+}
+ h2{
+    text-align: center;
+}
+.underline{
+    width: 27%;
+    border: 1px solid black;
+    margin: -10px auto;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    transform:rotate(45deg);
+    margin: 0 auto;
+    background-color: white;
+    /*box-shadow: 5px 0px 0 4px white;*/
+}
+
+
+.whoWeAre ul {
+    padding: 16px;
+}
+.whoWeAre h3{
+    margin-top: 10%;
+    color: #81c3f5;
+    font-family: "roboto light";
+}
+
+.whoWeAre li{
+    padding-bottom: 5%;
+    list-style-image: url("assets/images/arrow_bullet.png");
+    
+}
+.whoWeAre img{
+    width: 100%;
+}
+.whatPeopleSays{
+    
+    padding: 0 9%;
+    margin-top: 20%;
+}
+            
+
+.whatPeopleSays ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15%;
+
+    
+}
+.whatPeopleSays li{
+    background-color: #81c3f5;
+    padding: 10%  5%;
+    margin-bottom: 5%;
+}
+.whatPeopleSays img{
+    width: 18%;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 0.5%;
+    float: left;
+    margin-right: 5%;
+    
+}
+.star {
+    float: left;
+    margin: auto 0;
+    
+}
+.star i {
+    color: white;
+}
+.star h4 {
+    margin: 0px;
+}
+.whatPeopleSays p {
+    line-height: 1.4;
+}
+.getInTouchWithUs{
+    color: black;
+    text-align: center;
+}
+.getInTouchWithUs > ul{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 15%;
+
+
+}
+.getInTouchWithUs > ul > li {
+    padding: 40px 0;
+
+}
+
+
+.getInTouchWithUs img {
+    width: 3.5%;
+    
+}
+.green{
+    background-color:#3add9a;
+}
+.pink{
+    background-color: #fc5282;
+    
+}
+.blue{
+    background-color: #376ce4;
+}
+.lightblue{
+    background-color: #81c3f5;
+}
+
+li .housePic{
+    width: 30%;
+}
+.getInTouchWithUs h4{
+    margin: 0;
+    padding-bottom: 5%;
+
+}  
+.green h4{
+    padding-bottom: 0;
+}
+
+.socialImg{
+    margin-right: 20px;
+}
+ul li:last-child{
+    margin: 0;
+}
+.fas.fa-map-marker-alt {
+    margin-right: 2%;
+}
+
+.getInTouchWithUs li:last-child{
+    padding: 0;
+  
+}
+.mailUs{
+padding: 0 4%;
+}
+form{
+    margin-top: 11%;
+}
+input, textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 4%;
+    padding:2%;
+}
+.button{
+    width: 28%;
+    border-radius: 10%;
+    background-color: #fd9727;
+    color: white;
+    padding: 2.2% 0;
+    border: none;
+    
+}
+footer{
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+    height: 140px;
+}
+
+footer ul{
+    padding: 0;
+    padding-top: 50px;
+    list-style-type: none;
+    margin-top: 10%;
+    
+}
+footer ul > li {
+    display: inline;
+    margin-right: 1%;
+}
+footer p{
+    margin-bottom: 0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.fa-copyright{
+    margin-right: 2%;
+}
+
+
+
+/* RESPONSIVE    */
+
+@media all and (min-width:760px){
+    
+    .buildEstate h2{
+    position: absolute;
+    top: 0px;
+    color: white;
+}
+    .buildEstate span{
+        border-color: white;
+    }
+
+    .buildEstate ul{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 0;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0)
+       
+    }
+    .buildEstate ul li{
+        display: inline;
+    }
+    .buildEstate ul li:last-child{
+        padding-right: 20px;
+    }
+}
