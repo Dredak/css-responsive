@@ -167,8 +167,6 @@ h1{
 }
 .star {
     float: left;
-    margin: auto 0;
-    
 }
 .star i {
     color: white;
@@ -304,15 +302,13 @@ footer a{
     position: absolute;
     top: 0px;
     color: white;
-}
+    }
     .buildEstate span{
         border-color: white;
     }
-
     .headerInner{
         top: 35%;
     }
-
     .buildEstate ul{
         position: absolute;
         top: 0px;
@@ -328,6 +324,7 @@ footer a{
     .buildEstate ul li:last-child{
         padding-right: 20px;
     }
+
     /* new section */
     .welcome-to-our-build-estate{
         float: left;
@@ -339,6 +336,7 @@ footer a{
         width: 49%;
         margin-top: 5%;
     }
+
     /* new section */
     .whatPeopleSays {
         margin-top: 0;
@@ -359,6 +357,7 @@ footer a{
     .whatPeopleSays img{
         width: 40%;
     }
+
     /* new section */
     .getInTouchWithUs ul {
         margin-top: 5%;
@@ -368,8 +367,14 @@ footer a{
         height: 200px;
         width: 50%;
     }
-    .getInTouchWithUs li:last-child {
+    .getInTouchWithUs > ul .lightblue {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .getInTouchWithUs li:last-child, iframe {
         width: 100%;
+        height: 400px;
     }
     /* new section */
     .first-three-inputs-width{
@@ -379,16 +384,56 @@ footer a{
     }
     .mailUs form textarea {
         width: 97%;
-        margin-left: 1%;
         height: 200px;
+        margin-left: 1%;
     }
     .button {
         width: 20%;
     }
 }
 
-/* @media all and (min-width: 1200px){
-    .buildEstate h2{
-        color: red;
+@media all and (min-width: 1200px){
+    .welcome-to-our-build-estate{
+        width: 30%;
     }
-} */
+    .whoWeAre img{
+        float: left;
+        width: 33%;
+        margin: 3% 3% 10% 3%;
+    }
+    .whoWeAre .clear {
+        float: left;
+        width: 30%;
+    }
+    /* next section */
+    .whatPeopleSays ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .whatPeopleSays li:first-child{
+        margin-left: 0;
+    }
+    .whatPeopleSays li{
+        margin: 0;
+        padding: 2%;
+        flex-basis: 32%;
+    }
+    .whatPeopleSays li:last-child{
+        margin: 0;
+        padding-top: 2%;
+        flex-basis: 32%;
+    }
+    
+    /* next section */
+    .mailUs {
+        margin-top: 3%;
+    }
+    .getInTouchWithUs > ul > li {
+        width: 25%;
+    }
+
+    form {
+        width: 70%;
+        margin: 5%  auto 0 auto;
+    }
+}
